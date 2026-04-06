@@ -5,6 +5,7 @@ const useHookCustom = (value) => {
   const onChange = (e) => {
     SetUserInput(e.target.value);
   };
+
   return [userInput, onChange];
 };
 
