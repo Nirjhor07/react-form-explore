@@ -1,5 +1,6 @@
 import "./App.css";
 import ControlledForm from "./Components/ControlledFormHandling/ControlledForm";
+import CustomHookForm from "./Components/CustomHookForm/CustomHookForm";
 import Form from "./Components/Form/Form";
 
 function App() {
@@ -10,7 +11,9 @@ function App() {
         {/* normal form  */}
         {/* <Form></Form> */}
         {/* controlled form handling  */}
-        <ControlledForm></ControlledForm>
+        {/* <ControlledForm></ControlledForm> */}
+        {/* custom hook diye form handle korbo ei component e  */}
+        <CustomHookForm></CustomHookForm>
       </div>
     </>
   );
